@@ -1,0 +1,49 @@
+body {
+background-color: #0d1b2a;
+color: #fff;
+font-family: 'Segoe UI', sans-serif;
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
+}
+
+.container {
+width: 90%;
+max-width: 500px;
+text-align: center;
+}
+
+.liquidity-bar {
+display: flex;
+height: 30px;
+border-radius: 6px;
+overflow: hidden;
+background-color: #1b263b;
+border: 1px solid #415a77;
+margin-top: 15px;
+}
+
+.liquidity-bar .buy {
+background-color: #00c853;
+text-align: center;
+color: #fff;
+transition: width 0.5s ease;
+white-space: nowrap;
+font-weight: bold;
+}
+
+.liquidity-bar .sell {
+background-color: #d50000;
+text-align: center;
+color: #fff;
+transition: width 0.5s ease;
+white-space: nowrap;
+font-weight: bold;
+}
+
+.details {
+margin-top: 10px;
+font-size: 14px;
+color: #ccc;
+}
